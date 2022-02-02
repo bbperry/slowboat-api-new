@@ -1,6 +1,6 @@
 #Slow Boat Co. eCommerce
 
-    A direct to consumer online store to connect consumers with the Slow Boat Co. selling salmon and whitefish.
+A direct to consumer online store to connect consumers with the Slow Boat Co. selling salmon and whitefish.
 
 ##User Stories
 

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fish: MyString
+  desc: MyString
+  price: 9.99
+  total_quantity: 1
+  image: MyString
+  discount_id: MyString
+
+two:
+  fish: MyString
+  desc: MyString
+  price: 9.99
+  total_quantity: 1
+  image: MyString
+  discount_id: MyString
