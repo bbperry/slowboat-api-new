@@ -62,9 +62,9 @@ ActiveRecord::Schema.define(version: 2022_02_02_002023) do
   end
 
   create_table "products", force: :cascade do |t|
-    t.string "fish"
+    t.string "name"
     t.string "desc"
-    t.decimal "price"
+    t.integer "price"
     t.integer "total_quantity"
     t.string "image"
     t.bigint "discount_id"
@@ -91,7 +91,7 @@ ActiveRecord::Schema.define(version: 2022_02_02_002023) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.string "password"
+    t.string "password_digest"
     t.string "email"
     t.string "first_name"
     t.string "last_name"
