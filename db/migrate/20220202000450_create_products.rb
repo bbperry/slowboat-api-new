@@ -6,7 +6,7 @@ class CreateProducts < ActiveRecord::Migration[7.0]
       t.decimal :price
       t.integer :total_quantity
       t.string :image
-      t.string :discount_id
+      t.references :discount
 
       t.timestamps
     end
