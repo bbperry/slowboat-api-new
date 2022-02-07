@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-    before_action :require_login
+    # before_action :require_login
 
     rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
 
