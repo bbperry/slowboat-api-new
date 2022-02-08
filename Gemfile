@@ -49,3 +49,4 @@ end
 # added gems
 gem 'active_model_serializers'
 gem 'jwt'
+gem 'stripe'
