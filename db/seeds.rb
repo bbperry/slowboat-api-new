@@ -14,28 +14,28 @@ Product.create(name: "Sockeye Salmon",
     desc: "1/2 lb portions vacuum packed flash frozen", 
     price: 18.5, 
     total_quantity: 1000, 
-    image: "https://i.ibb.co/qsw4Zy2/sockeye.jpg",
+    image: "https://i.ibb.co/SfTBp3q/Sockeye-copy.jpg",
     discount_id: 'nil')
 
 Product.create(name: "Coho Salmon", 
     desc: "1/2 lb portions vacuum packed flash frozen", 
     price: 17, 
     total_quantity: 1000, 
-    image: "https://i.ibb.co/SQV1h1F/coho.jpg",
+    image: "https://i.ibb.co/9tQ0Yqc/Coho-copy.jpg",
     discount_id: 'nil')  
 
 Product.create(name: "Halibut", 
     desc: "1/2 lb portions vacuum packed flash frozen", 
     price: 34, 
     total_quantity: 1000, 
-    image: "https://i.ibb.co/2ZLSwzm/Halibut.jpg",
+    image: "https://i.ibb.co/G0wLd7G/Halibut.jpg",
     discount_id: 'nil')  
 
 Product.create(name: "Lingcod", 
     desc: "1/2 lb portions vacuum packed flash frozen", 
     price: 20, 
     total_quantity: 1000, 
-    image: "https://i.ibb.co/Xbth7Yj/Coho.jpg",
+    image: "https://i.ibb.co/zbM4bXY/Lingcod-3.jpg",
     discount_id: 'nil')  
 
 Product.create(name: "Smoked Keta Salmon", 

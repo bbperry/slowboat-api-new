@@ -1,4 +1,4 @@
 class CartItemSerializer < ActiveModel::Serializer
-  attributes :id, :session_id
-  has_one :product_id
+  attributes :id, :product_id, :quantity, :price
+  belongs_to :product
 end
