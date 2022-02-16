@@ -33,13 +33,12 @@ ActiveRecord::Schema.define(version: 2022_02_15_011231) do
   end
 
   create_table "events", force: :cascade do |t|
-    t.string "desc"
-    t.string "location"
-    t.string "date"
-    t.bigint "user_id"
+    t.string "title"
+    t.string "time"
+    t.string "months"
+    t.string "map"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_events_on_user_id"
   end
 
   create_table "order_details", force: :cascade do |t|
