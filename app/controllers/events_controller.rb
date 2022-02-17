@@ -12,6 +12,12 @@ class EventsController < ApplicationController
         render json: event, status: :created
     end
 
+    def destroy
+        event = find_event
+        event.destroy
+        head :no_content
+    end
+
     private
 
     def render_unprocessable_entity_response(invalid)
@@ -25,6 +31,10 @@ class EventsController < ApplicationController
     def event_params
         params.permit(:title, :time, :months, :map)
     end    
+
+    def find_event
+        Event.find(params[:id])
+    end
 
 
 end
