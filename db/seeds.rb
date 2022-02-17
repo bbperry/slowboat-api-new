@@ -91,6 +91,13 @@ Product.create(name: "Smoked Salmon",
 Event.create(title: "Bainbridge Farmers Market", time: 'Saturdays 10AM-2PM', months: 'August-December', map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.005508879627!2d-122.52149484876576!3d47.6260241790838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54903eb0b2ad8697%3A0xcfd87a1db8399637!2sBainbridge%20Island%20Farmers%E2%80%99%20Market!5e0!3m2!1sen!2sus!4v1643936244012!5m2!1sen!2sus')
 
 User.create(username: "Ben", password: "1234567", admin: true)
+User.create(username: "Bob", password: "123", admin: false)
+User.create(username: "Bab", password: "123", admin: false)
+
+Review.create(text: 'Best fish ever', rating: 5, user_id: 1)
+Review.create(text: 'Even after one year in the freezer they still taste fresh. Best place to buy your salmon. ', rating: 5, user_id: 2)
+Review.create(text: 'Slow Boat is the best.  We found them at the night market.  We were finding it difficult to add fish to our routine.  Then we found thse guys.  Their salmon is the freshest and it comes in individual packets. So convient. This time we splurged on halibut too. Just delicious!  Also very accommodating with the pick up.  Love Thunders Catch! ', rating: 5, user_id: 3)
+
 
 
 puts 'seeds have been planted'
