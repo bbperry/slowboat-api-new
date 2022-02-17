@@ -18,7 +18,8 @@ Rails.application.routes.draw do
   post "/signup", to: "users#create"
   get "/auto_login", to: "users#auto_login"
 
-
+  #STRIPE
+  post "/charge_adapter", to: "charge_adapter#create"
 
 
 
