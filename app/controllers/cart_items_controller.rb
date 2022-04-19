@@ -1,7 +1,7 @@
 class CartItemsController < ApplicationController
 
     def index
-        render json: CartItem.last
+        render json: CartItem.all
     end
 
     def show
