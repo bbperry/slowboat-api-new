@@ -103,3 +103,5 @@ Review.create(text: 'Salmon fillets turn your freezer into a treasure chest. Get
 Review.create(text: 'We had a great experience! Everything was very simple and easy to figure out!! We have also had a great experience with each fillet that we have eaten so far! :) Love you guys and your business!', rating: 5, user_id: 5)
 
 puts 'seeds have been planted'
+
+#test
